@@ -141,19 +141,19 @@ section .bg.end {
 }
 
 /* Side Nav */
-ul#nav {
+ul#pljs-nav {
 	position : fixed;
 	left     : 5%;
 	top      : 20%;
 	z-index  : 999;
 }
 
-ul#nav li {
+ul#pljs-nav li {
 	height   : 20px;
 	position : relative;
 }
 
-ul#nav a {
+ul#pljs-nav a {
 	display     : block;
 	width       : 20px;
 	height      : 20px;
@@ -163,11 +163,11 @@ ul#nav a {
 	outline     : none;
 }
 
-ul#nav a:hover, nav#main li.active a {
+ul#pljs-nav a:hover, nav#main li.active a {
 	background : url('../images/grey-pink-dot.png') 0 100% no-repeat;
 }
 
-ul#nav h1 {
+ul#pljs-nav h1 {
 	display     : none;
 	opacity     : 0;
 	position    : absolute;
@@ -181,7 +181,7 @@ ul#nav h1 {
 	font-size   : 16px;
 }
 
-ul#nav span {
+ul#pljs-nav span {
 	display            : block;
 	background         : url('../images/menu-bg.png') repeat-x;
 	color              : #FFF;
