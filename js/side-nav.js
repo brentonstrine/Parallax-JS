@@ -1,5 +1,5 @@
 $(function(){
-	var   $nav = $( '#nav' )
+	var   $nav = $( '#pljs-nav' )
 	  , aRules = [];
 
 	$( 'section' ).each( function(){
@@ -8,7 +8,7 @@ $(function(){
 		  ,    sId = $this.attr( 'id' ).split( '-' ).pop()
 		  ;
 
-		aRules.push( 'body.section-' + sId + ' #nav li.' + sId + ' a');
+		aRules.push( 'body.section-' + sId + ' #pljs-nav li.' + sId + ' a');
 		$nav.append( '<li class="' + sId + '"><h1><span>' + sTitle + '</span></h1><a href="#' + sId + '">' + sId + '</a></li>' )
 	} );
 
